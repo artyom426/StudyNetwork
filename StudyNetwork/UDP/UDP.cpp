@@ -24,7 +24,7 @@ int main(int argc, char **argv)
     remoteAddr->sin_addr.s_addr = inet_addr("82.179.90.12"); //ip
 
     char *buf = new char [256];
-    strcpy(buf, "Hello, World!\n");
+    strcpy(buf, "Hello, Artyom\n");
     int msgLen = strlen(buf);
 
     int mySocket = socket(AF_INET, SOCK_DGRAM, 0); // udp
